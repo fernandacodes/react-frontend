@@ -11,13 +11,14 @@
 1. Clone o repositório:
 
     ```bash
-    git clone <link-do-repositorio-https>
-    cd web
+    git clone https://github.com/fernandacodes/react-frontend.git
+    cd react-frontend
     ```
 
 2. execute o comando abaixo usando o docker:
 
-    ```docker compose up -d
+    ```
+    docker compose up -d
     ```
 
 3. Abra o navegador de sua preferencia e abra o endereco http://localhost:3000
