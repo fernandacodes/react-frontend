@@ -26,6 +26,7 @@ function HomePage() {
           });
   
           if (!response.ok) {
+            navigate('/login');
             throw new Error('Failed to fetch user data');
           }
   
